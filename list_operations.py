@@ -6,7 +6,7 @@ if __name__ == '__main__':
         commands[i]=input().split()
     for k,v in commands.items():
         if v[0] == 'insert':
-            #print('peform ',v[0])
+            print('peform ',v[0])
             id=int(v[1])
             val=int(v[2])
 
